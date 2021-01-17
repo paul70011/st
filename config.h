@@ -95,23 +95,22 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* solarized dark */
-	"#073642",  /*  0: black    */
-	"#dc322f",  /*  1: red      */
-	"#859900",  /*  2: green    */
-	"#b58900",  /*  3: yellow   */
-	"#268bd2",  /*  4: blue     */
-	"#d33682",  /*  5: magenta  */
-	"#2aa198",  /*  6: cyan     */
-	"#eee8d5",  /*  7: white    */
-	"#002b36",  /*  8: brblack  */
-	"#cb4b16",  /*  9: brred    */
-	"#586e75",  /* 10: brgreen  */
-	"#657b83",  /* 11: bryellow */
-	"#839496",  /* 12: brblue   */
-	"#6c71c4",  /* 13: brmagenta*/
-	"#93a1a1",  /* 14: brcyan   */
-	"#fdf6e3",  /* 15: brwhite  */
+	"#1d1f21",  /*  0: black    */
+	"#a54242",  /*  1: red      */
+	"#8c9440",  /*  2: green    */
+	"#de935f",  /*  3: yellow   */
+	"#5f819d",  /*  4: blue     */
+	"#85678f",  /*  5: magenta  */
+	"#5e8d87",  /*  6: cyan     */
+	"#707880",  /*  7: white    */
+	"#2f3238",  /*  8: brblack  */
+	"#cc6666",  /*  9: brred    */
+	"#b5bd68",  /* 10: brgreen  */
+	"#f0c674",  /* 11: bryellow */
+	"#81a2be",  /* 12: brblue   */
+	"#b294bb",  /* 13: brmagenta*/
+	"#8abeb7",  /* 14: brcyan   */
+	"#c5c8c6",  /* 15: brwhite  */
 };
 
 
@@ -119,10 +118,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 12;
-unsigned int defaultbg = 8;
-static unsigned int defaultcs = 14;
-static unsigned int defaultrcs = 15;
+unsigned int defaultfg = 15;
+unsigned int defaultbg = 0;
+static unsigned int defaultcs = 15;
+static unsigned int defaultrcs = 14;
 
 /*
  * Default shape of cursor
